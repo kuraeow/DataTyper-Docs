@@ -1,0 +1,18 @@
+title: DataTyper Docs
+description: Official documentation for the DataTyper Figma plugin
+theme: just-the-docs
+
+url: https://docs.datatyper.space
+
+# ВКЛЮЧАЕМ ТЁМНУЮ ТЕМУ
+color_scheme: dark
+
+# КНОПКА ПЕРЕКЛЮЧЕНИЯ ТЕМ
+enable_dark_mode: true
+
+# Навигация
+search_enabled: true
+heading_anchors: true
+
+# Footer
+footer_content: "© DataTyper"
