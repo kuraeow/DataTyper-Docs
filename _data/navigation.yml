@@ -30,8 +30,8 @@
     url: /datatypes/overview
   - title: Values
     url: /datatypes/values
-  - title: Editing & Deleting
-    url: /datatypes/editing-and-deleting
+  - title: Editing
+    url: /datatypes/editing
   - title: Data Safety
     url: /datatypes/data-safety
 - title: Filling Data
