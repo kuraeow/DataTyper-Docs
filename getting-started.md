@@ -40,7 +40,7 @@ DataTyper uses **Figma OAuth** for authentication.
 
 Once you complete the sign-in flow, DataTyper is ready to use.
 
-- [More about Authentication](#sign-in-with-figma)
+- [More about Authentication →](/authentication)
 
 ---
 
@@ -57,7 +57,7 @@ To create your first dataset:
 
 Your dataset becomes the active dataset immediately.
 
-- [More about Datasets](#create-your-first-dataset)
+- [More about Datasets →](/datasets/overview)
 
 ---
 
@@ -79,7 +79,7 @@ To add a datatype:
 3. Enter values — **one value per line**
 4. Save the datatype
 
-- [More about Datatypes](#add-a-datatype)
+- [More about Datatypes →](/datatypes/overview)
 
 ---
 
@@ -115,7 +115,7 @@ DataTyper applies values to the selected layers in order.
 
 If there are more layers than values, values are reused cyclically.
 
-- [More about Filling](#fill-your-design)
+- [More about Filling →](/filling-data/overview)
 
 ---
 
