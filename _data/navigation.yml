@@ -30,8 +30,8 @@
     url: /datatypes/overview
   - title: Values
     url: /datatypes/values
-  - title: Editing
-    url: /datatypes/editing
+  - title: Editing & Deleting
+    url: /datatypes/editing-and-deleting
   - title: Data Safety
     url: /datatypes/data-safety
 - title: Filling Data
@@ -40,5 +40,7 @@
     url: /filling-data/overview
   - title: Fill in Figma
     url: /filling-data/fill-in-figma
-- title: Privacy Policy
-  url: /privacy
+- title: Legal Info
+  children:
+  - title: Privacy Policy
+    url: /privacy

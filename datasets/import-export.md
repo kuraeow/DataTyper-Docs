@@ -6,6 +6,15 @@ title: Import and Export CSV
 
 DataTyper supports importing and exporting datasets using CSV files.
 
+## On this page
+
+- [CSV format](#csv-format)
+- [Import rules](#import-behavior)
+- [How mapping works](#mapping-and-merge-logic)
+- [Preparing your CSV](#preparing-csv-files-correctly)
+- [Export](#exporting-to-csv)
+
+
 This makes it easy to migrate data, create backups, or prepare content outside the plugin before using it in Figma.
 
 ---
@@ -39,6 +48,21 @@ This creates:
 ---
 
 ## Import behavior
+
+## Mapping and merge logic
+
+DataTyper maps CSV rows to your dataset using a simple rule:
+
+- **datatype_name** → selects (or creates) a datatype by name
+- **datatype_value** → becomes one value inside that datatype
+
+Import is **name-based**, meaning:
+
+- If `datatype_name` already exists in the dataset, values are added to that datatype
+- If it does not exist, a new datatype is created
+
+This makes CSV import ideal for keeping your dataset up to date by re-importing revised data.
+
 
 When importing a CSV file, DataTyper follows these rules:
 

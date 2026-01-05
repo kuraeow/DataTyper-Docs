@@ -44,5 +44,5 @@ Only store data that is safe to use in design and content workflows.
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Editing](/datatypes/editing)  
+← Previous: [Editing](/datatypes/editing-and-deleting)  
 Next: [Overview](/filling-data/overview) →

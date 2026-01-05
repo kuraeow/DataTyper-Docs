@@ -43,4 +43,4 @@ Understanding how values work is essential for predictable filling results.
 ---
 <!-- DATATYPER_DOCS_NAV -->
 ← Previous: [Overview](/datatypes/overview)  
-Next: [Editing](/datatypes/editing) →
+Next: [Editing](/datatypes/editing-and-deleting) →

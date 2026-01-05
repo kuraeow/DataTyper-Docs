@@ -7,6 +7,14 @@ title: Authentication
 DataTyper uses Figma OAuth for authentication.  
 This means you sign in using your Figma account, and DataTyper never handles your password.
 
+## On this page
+
+- [How authentication works](#how-authentication-works)
+- [What DataTyper stores](#what-datatyper-stores)
+- [Where the token is stored](#where-the-authorization-token-is-stored)
+- [Logging out and revoking access](#logging-out-and-access-revocation)
+
+
 ---
 
 ## How authentication works
@@ -37,6 +45,13 @@ All authentication is delegated to Figma.
 ---
 
 ## Where the authorization token is stored
+
+<div class="callout tip">
+<strong>Tip</strong><br>
+If you share a computer, sign out from Figma to revoke local access.
+</div>
+
+
 
 The authorization token issued by Figma is stored:
 

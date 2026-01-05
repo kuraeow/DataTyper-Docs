@@ -6,6 +6,14 @@ title: Getting Started
 
 This guide will help you get from opening DataTyper for the first time to filling your Figma designs with real data.
 
+## On this page
+
+- [Sign in with Figma](#sign-in-with-figma)
+- [Create your first Dataset](#create-your-first-dataset)
+- [Add a Datatype](#add-a-datatype)
+- [Fill your design](#fill-your-design)
+
+
 ---
 
 ## What is DataTyper?
@@ -21,6 +29,13 @@ At a high level, DataTyper works like this:
 ---
 
 ## Sign in with Figma
+
+<div class="callout note">
+<strong>Note</strong><br>
+DataTyper uses Figma OAuth. You never create a separate DataTyper password.
+</div>
+
+
 
 When you open DataTyper for the first time, you’ll be asked to sign in.
 
