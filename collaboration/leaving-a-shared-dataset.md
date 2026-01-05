@@ -6,6 +6,12 @@ title: Leaving a Shared Dataset
 
 If you are connected to a dataset shared by another user, you can leave it at any time.
 
+## On this page
+
+- [How to leave a shared dataset](#how-to-leave-a-shared-dataset)
+- [What happens after leaving](#what-happens-after-leaving)
+
+
 ---
 
 ## How to leave a shared dataset
@@ -33,5 +39,7 @@ Leaving a dataset does not delete it from the owner’s storage.
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Managing Collaborators](/collaboration/managing-collaborators)  
-Next: [Overview](/datatypes/overview) →
+<div class="docs-page-nav">
+  <a href="/collaboration/managing-collaborators">← Managing Collaborators</a>
+  <a href="/datatypes/overview">Overview →</a>
+</div>

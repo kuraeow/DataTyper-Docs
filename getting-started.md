@@ -1,5 +1,6 @@
 ---
 title: Getting Started
+permalink: /
 ---
 
 # Getting Started
@@ -133,4 +134,7 @@ Continue with the next section to learn more about datasets and how they work.
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-Next: [Authentication](/authentication) →
+<div class="docs-page-nav">
+  <span></span>
+  <a href="/authentication">Authentication →</a>
+</div>

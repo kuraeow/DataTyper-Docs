@@ -231,3 +231,13 @@ body {
   font-size: 14px;
 }
 .docs-page-nav a:hover { color: var(--text-primary) !important; text-decoration: underline !important; }
+
+
+/* --- Softer separators on dark theme --- */
+.markdown-body hr {
+  border: 0 !important;
+  height: 1px !important;
+  background: linear-gradient(90deg, transparent, var(--border-color), transparent) !important;
+  opacity: 0.75 !important;
+  margin: 26px 0 !important;
+}

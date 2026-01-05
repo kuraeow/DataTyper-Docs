@@ -6,6 +6,12 @@ title: Filling Data
 
 Filling data in Figma is the core functionality of DataTyper.
 
+## On this page
+
+- [How filling works](#how-filling-works)
+- [Supported layers](#supported-layers)
+
+
 It allows you to apply structured data directly to your Figma layers, eliminating manual copy-paste and making data-driven design fast and predictable.
 
 ---
@@ -34,5 +40,7 @@ Other layer types are ignored during filling.
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Data Safety](/datatypes/data-safety)  
-Next: [Fill in Figma](/filling-data/fill-in-figma) →
+<div class="docs-page-nav">
+  <a href="/datatypes/data-safety">← Data Safety</a>
+  <a href="/filling-data/fill-in-figma">Fill in Figma →</a>
+</div>

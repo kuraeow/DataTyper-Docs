@@ -116,5 +116,7 @@ Following these rules guarantees predictable and consistent import results.
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Storage Source](/datasets/storage-source)  
-Next: [Overview](/collaboration/overview) →
+<div class="docs-page-nav">
+  <a href="/datasets/storage-source">← Storage Source</a>
+  <a href="/collaboration/overview">Overview →</a>
+</div>

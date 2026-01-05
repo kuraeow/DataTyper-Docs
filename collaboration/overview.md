@@ -6,6 +6,12 @@ title: Overview Collaboration
 
 DataTyper allows multiple users to work with the same dataset collaboratively.
 
+## On this page
+
+- [How collaboration works](#how-collaboration-works)
+- [Dataset ownership](#dataset-ownership)
+
+
 Collaboration is designed around a shared single source of truth, ensuring that everyone works with the same data and sees changes in real time.
 
 ---
@@ -35,5 +41,7 @@ Collaborators work with the same data, but do not become owners of the dataset.
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Import / Export CSV](/datasets/import-export)  
-Next: [Sharing Datasets](/collaboration/sharing-datasets) →
+<div class="docs-page-nav">
+  <a href="/datasets/import-export">← Import / Export CSV</a>
+  <a href="/collaboration/sharing-datasets">Sharing Datasets →</a>
+</div>

@@ -6,6 +6,13 @@ title: Storage Source
 
 Each dataset in DataTyper uses a **storage source** that defines where its data is stored and synchronized.
 
+## On this page
+
+- [DataTyper Cloud](#datatyper-cloud)
+- [Google Sheets as a storage source](#google-sheets-as-a-storage-source)
+- [Choosing the right storage source](#choosing-the-right-storage-source)
+
+
 You can change the storage source at any time.
 
 ---
@@ -76,5 +83,7 @@ Use Google Sheets if you:
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Delete](/datasets/delete)  
-Next: [Import / Export CSV](/datasets/import-export) →
+<div class="docs-page-nav">
+  <a href="/datasets/delete">← Delete</a>
+  <a href="/datasets/import-export">Import / Export CSV →</a>
+</div>

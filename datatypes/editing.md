@@ -6,6 +6,12 @@ title: Editing and Deleting Datatypes
 
 You can edit or delete datatypes at any time.
 
+## On this page
+
+- [Editing a datatype](#editing-a-datatype)
+- [Deleting a datatype](#deleting-a-datatype)
+
+
 Changes are applied immediately to the dataset.
 
 ---
@@ -34,5 +40,7 @@ Make sure the datatype is no longer needed before deleting it.
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Values](/datatypes/values)  
-Next: [Data Safety](/datatypes/data-safety) →
+<div class="docs-page-nav">
+  <span></span>
+  <span></span>
+</div>

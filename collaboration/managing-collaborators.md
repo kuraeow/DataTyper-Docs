@@ -6,6 +6,12 @@ title: Managing Collaborators
 
 Dataset owners can manage who has access to their datasets.
 
+## On this page
+
+- [Full access for collaborators](#full-access-for-collaborators)
+- [Removing collaborators](#removing-collaborators)
+
+
 ---
 
 ## Full access for collaborators
@@ -34,5 +40,7 @@ The dataset itself remains unchanged for the owner and other collaborators.
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Sharing Datasets](/collaboration/sharing-datasets)  
-Next: [Leaving a Shared Dataset](/collaboration/leaving-a-shared-dataset) →
+<div class="docs-page-nav">
+  <a href="/collaboration/sharing-datasets">← Sharing Datasets</a>
+  <a href="/collaboration/leaving-a-shared-dataset">Leaving a Shared Dataset →</a>
+</div>

@@ -4,7 +4,19 @@ title: Data Safety
 
 # Data Safety
 
+<div class="callout note">
+<strong>Note</strong><br>
+DataTyper is built for content and mock data. Avoid storing any confidential information.
+</div>
+
 DataTyper is designed to work with design and content data.
+
+## On this page
+
+- [What DataTyper stores](#what-datatyper-stores)
+- [What you should NOT store](#what-you-should-not-store)
+- [User responsibility](#user-responsibility)
+
 
 It is not intended to store sensitive or confidential information.
 
@@ -44,5 +56,7 @@ Only store data that is safe to use in design and content workflows.
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Editing](/datatypes/editing-and-deleting)  
-Next: [Overview](/filling-data/overview) →
+<div class="docs-page-nav">
+  <a href="/datatypes/editing-and-deleting">← Editing & Deleting</a>
+  <a href="/filling-data/overview">Overview →</a>
+</div>

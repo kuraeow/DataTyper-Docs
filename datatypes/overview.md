@@ -32,5 +32,7 @@ Datatypes help you organize data in a predictable and reusable way.
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Leaving a Shared Dataset](/collaboration/leaving-a-shared-dataset)  
-Next: [Values](/datatypes/values) →
+<div class="docs-page-nav">
+  <a href="/collaboration/leaving-a-shared-dataset">← Leaving a Shared Dataset</a>
+  <a href="/datatypes/values">Values →</a>
+</div>

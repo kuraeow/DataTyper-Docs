@@ -4,7 +4,20 @@ title: Delete a Dataset
 
 # Delete a Dataset
 
+<div class="callout warning">
+<strong>Warning</strong><br>
+Deleting a dataset is permanent. Once deleted, its datatypes and values cannot be restored.
+</div>
+
 Deleting a dataset permanently removes it and all associated data.
+
+## On this page
+
+- [Permanent deletion](#permanent-deletion)
+- [How to delete a dataset](#how-to-delete-a-dataset)
+- [Impact on collaborators](#impact-on-collaborators)
+- [Recommended precautions](#recommended-precautions)
+
 
 ---
 
@@ -50,5 +63,7 @@ Before deleting a dataset, consider:
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Create](/datasets/create)  
-Next: [Storage Source](/datasets/storage-source) →
+<div class="docs-page-nav">
+  <a href="/datasets/create">← Create</a>
+  <a href="/datasets/storage-source">Storage Source →</a>
+</div>

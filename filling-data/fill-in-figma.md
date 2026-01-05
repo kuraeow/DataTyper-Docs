@@ -6,6 +6,18 @@ title: Fill in Figma
 
 Fill Selected applies values from selected datatypes to the currently selected text layers in Figma.
 
+## On this page
+
+- [How Fill Selected works](#how-fill-selected-works)
+- [Cyclic value assignment](#cyclic-value-assignment)
+- [How multi-datatype fill works](#how-multi-datatype-fill-works)
+- [Typical use cases](#typical-use-cases)
+- [Available sorting options](#available-sorting-options)
+- [When to use sorting](#when-to-use-sorting)
+- [How randomization works](#how-randomization-works)
+- [When to use randomization](#when-to-use-randomization)
+
+
 ---
 
 ## How Fill Selected works
@@ -112,5 +124,7 @@ Randomization is useful for:
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Overview](/filling-data/overview)  
-Next: [Privacy Policy](/privacy) →
+<div class="docs-page-nav">
+  <a href="/filling-data/overview">← Overview</a>
+  <a href="/privacy">Privacy Policy →</a>
+</div>

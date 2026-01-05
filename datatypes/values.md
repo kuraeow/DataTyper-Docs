@@ -6,6 +6,12 @@ title: Values
 
 A **value** is a single data entry inside a datatype.
 
+## On this page
+
+- [One value per line](#one-value-per-line)
+- [How values are used](#how-values-are-used)
+
+
 Values are what DataTyper uses to fill your designs.
 
 ---
@@ -42,5 +48,7 @@ Understanding how values work is essential for predictable filling results.
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Overview](/datatypes/overview)  
-Next: [Editing](/datatypes/editing-and-deleting) →
+<div class="docs-page-nav">
+  <a href="/datatypes/overview">← Overview</a>
+  <a href="/datatypes/editing-and-deleting">Editing & Deleting →</a>
+</div>

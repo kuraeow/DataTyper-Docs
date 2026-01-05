@@ -6,6 +6,13 @@ title: Create a Dataset
 
 Creating a dataset is the first step to working with data in DataTyper.
 
+## On this page
+
+- [How to create a dataset](#how-to-create-a-dataset)
+- [Naming datasets](#naming-datasets)
+- [Automatic dataset creation](#automatic-dataset-creation)
+
+
 ---
 
 ## How to create a dataset
@@ -41,5 +48,7 @@ This means you can start working with DataTyper directly from a CSV file if you 
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Overview](/datasets/overview)  
-Next: [Delete](/datasets/delete) →
+<div class="docs-page-nav">
+  <a href="/datasets/overview">← Overview</a>
+  <a href="/datasets/delete">Delete →</a>
+</div>

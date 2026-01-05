@@ -6,6 +6,13 @@ title: Overview Datasets
 
 A **Dataset** is the main container for your data in DataTyper.
 
+## On this page
+
+- [What a Dataset contains](#what-a-dataset-contains)
+- [Active Dataset](#active-dataset)
+- [Number of datasets](#number-of-datasets)
+
+
 Datasets allow you to organize, store, and reuse structured data across your designs.  
 You can create multiple datasets for different projects, teams, or use cases.
 
@@ -48,5 +55,7 @@ This makes it easy to:
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Authentication](/authentication)  
-Next: [Create](/datasets/create) →
+<div class="docs-page-nav">
+  <a href="/authentication">← Authentication</a>
+  <a href="/datasets/create">Create →</a>
+</div>

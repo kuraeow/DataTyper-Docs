@@ -6,6 +6,20 @@ title: Privacy Policy
 
 This Privacy Policy explains how DataTyper collects, uses, and stores information when you use the DataTyper Figma plugin.
 
+## On this page
+
+- [Overview](#overview)
+- [Authentication and access](#authentication-and-access)
+- [Information DataTyper stores](#information-datatyper-stores)
+- [User-generated data](#user-generated-data)
+- [Sensitive data disclaimer](#sensitive-data-disclaimer)
+- [Responsibility and limitations](#responsibility-and-limitations)
+- [Data sharing](#data-sharing)
+- [Data removal](#data-removal)
+- [Changes to this policy](#changes-to-this-policy)
+- [Contact](#contact)
+
+
 By using DataTyper, you agree to the practices described in this policy.
 
 ---
@@ -119,10 +133,9 @@ Any changes will be reflected in the documentation. Continued use of DataTyper i
 
 If you have questions about this Privacy Policy, please contact the DataTyper developer through the official project channels.
 
-
 ---
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
-  <a href="/filling-data/fill-in-figma">← Multi-Datatype Fill</a>
+  <a href="/filling-data/fill-in-figma">← Fill in Figma</a>
   <span></span>
 </div>

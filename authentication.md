@@ -103,5 +103,7 @@ For details about data handling and user responsibilities, see the **Privacy Pol
 
 ---
 <!-- DATATYPER_DOCS_NAV -->
-← Previous: [Getting Started](/getting-started)  
-Next: [Overview](/datasets/overview) →
+<div class="docs-page-nav">
+  <a href="/">← Getting Started</a>
+  <a href="/datasets/overview">Overview →</a>
+</div>
