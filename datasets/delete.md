@@ -33,7 +33,7 @@ DataTyper requires confirmation to prevent accidental removal.
 
 <div class="callout warning">
 <strong>Warning</strong><br>
-Deleting a dataset permanently removes it and all associated data. Once deleted, it's datatypes and values cannot be restored.
+Deleting a dataset permanently removes it and all associated data. Once deleted, its datatypes and values cannot be restored.
 </div>
 
 ---

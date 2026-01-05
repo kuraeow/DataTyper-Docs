@@ -4,7 +4,7 @@ title: Storage Source
 
 # Storage Source
 
-Each dataset in DataTyper uses a **storage source** that defines where it's data is stored and synchronized.
+Each dataset in DataTyper uses a **storage source** that defines where its data is stored and synchronized.
 
 ## On this page
 

@@ -53,7 +53,6 @@ This makes it easy to:
 - maintain different content sets
 - experiment without affecting production data
 
-
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/authentication">← Authentication</a>
