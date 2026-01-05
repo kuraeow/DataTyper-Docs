@@ -41,6 +41,6 @@ Make sure the datatype is no longer needed before deleting it.
 ---
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
-  <span></span>
-  <span></span>
+  <a href="/datatypes/values">← Values</a>
+  <a href="/datatypes/data-safety">Data Safety →</a>
 </div>

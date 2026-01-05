@@ -57,6 +57,6 @@ Only store data that is safe to use in design and content workflows.
 ---
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
-  <a href="/datatypes/editing-and-deleting">← Editing & Deleting</a>
+  <a href="/datatypes/editing">← Editing and Deleting</a>
   <a href="/filling-data/overview">Overview →</a>
 </div>
