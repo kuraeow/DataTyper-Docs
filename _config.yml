@@ -3,8 +3,8 @@ defaults:
       path: ""
     values:
       layout: default
-      
-title: DataTyper | Docs
+
+title: DataTyper
 description: Documentation for DataTyper
 
 theme: jekyll-theme-primer
