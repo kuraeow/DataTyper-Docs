@@ -1,0 +1,44 @@
+- title: Getting Started
+  url: /getting-started
+- title: Authentication
+  url: /authentication
+- title: Datasets
+  children:
+  - title: Overview
+    url: /datasets/overview
+  - title: Create
+    url: /datasets/create
+  - title: Delete
+    url: /datasets/delete
+  - title: Storage Source
+    url: /datasets/storage-source
+  - title: Import / Export CSV
+    url: /datasets/import-export
+- title: Collaboration
+  children:
+  - title: Overview
+    url: /collaboration/overview
+  - title: Sharing Datasets
+    url: /collaboration/sharing-datasets
+  - title: Managing Collaborators
+    url: /collaboration/managing-collaborators
+  - title: Leaving a Shared Dataset
+    url: /collaboration/leaving-a-shared-dataset
+- title: Datatypes
+  children:
+  - title: Overview
+    url: /datatypes/overview
+  - title: Values
+    url: /datatypes/values
+  - title: Editing
+    url: /datatypes/editing
+  - title: Data Safety
+    url: /datatypes/data-safety
+- title: Filling Data
+  children:
+  - title: Overview
+    url: /filling-data/overview
+  - title: Fill in Figma
+    url: /filling-data/fill-in-figma
+- title: Privacy Policy
+  url: /privacy

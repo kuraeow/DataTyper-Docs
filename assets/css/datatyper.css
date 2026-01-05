@@ -166,3 +166,35 @@ body {
 .docs-links-secondary a:hover {
   opacity: 1;
 }
+
+
+/* Docs nav: sections + nested links */
+.docs-section {
+  margin-top: 18px;
+}
+
+.docs-section-title {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 14px 0 10px;
+}
+
+.docs-sub-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 10px;
+  border-left: 1px solid var(--border-color);
+}
+
+.docs-sub-links a {
+  font-size: 13px;
+}
+
+/* Sidebar should stay usable with long navigation */
+.docs-nav {
+  overflow: auto;
+  padding-right: 6px;
+}
