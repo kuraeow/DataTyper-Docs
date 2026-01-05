@@ -28,8 +28,6 @@ At a high level, DataTyper works like this:
 DataTyper uses Figma OAuth. You never create a separate DataTyper password.
 </div>
 
-
-
 When you open DataTyper for the first time, you’ll be asked to sign in.
 
 DataTyper uses **Figma OAuth** for authentication.
