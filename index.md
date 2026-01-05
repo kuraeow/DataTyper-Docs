@@ -1,10 +1,13 @@
----
-title: Home
-nav_order: 1
----
-
 # DataTyper Documentation
 
 Welcome to **DataTyper** — a Figma plugin for filling designs with real data.
 
-Use the navigation on the left to get started.
+## Getting started
+Learn how to install the plugin and create your first dataset.
+
+👉 [Getting Started](getting-started)
+
+## Privacy
+Read how DataTyper handles data and privacy.
+
+👉 [Privacy Policy](privacy)
