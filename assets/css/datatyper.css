@@ -208,14 +208,24 @@ body {
   padding: 14px 16px;
   margin: 18px 0;
 }
+
 .callout strong {
   display: inline-block;
   margin-bottom: 6px;
   font-weight: 600;
 }
-.callout.tip strong { color: var(--accent-gold); }
-.callout.note strong { color: var(--text-primary); }
-.callout.warning strong { color: var(--accent-gold); }
+
+.callout.tip strong {
+  color: var(--accent-gold);
+}
+
+.callout.note strong {
+  color: var(--text-primary);
+}
+
+.callout.warning strong {
+  color: var(--accent-gold);
+}
 
 .docs-page-nav {
   display: flex;
@@ -225,12 +235,17 @@ body {
   padding-top: 18px;
   border-top: 1px solid var(--border-color);
 }
+
 .docs-page-nav a {
   color: var(--text-secondary) !important;
   text-decoration: none !important;
   font-size: 14px;
 }
-.docs-page-nav a:hover { color: var(--text-primary) !important; text-decoration: underline !important; }
+
+.docs-page-nav a:hover {
+  color: var(--text-primary) !important;
+  text-decoration: underline !important;
+}
 
 
 /* --- Softer separators on dark theme --- */
@@ -240,4 +255,28 @@ body {
   background: linear-gradient(90deg, transparent, var(--border-color), transparent) !important;
   opacity: 0.75 !important;
   margin: 26px 0 !important;
+}
+
+
+/* --- Table styling for dark docs --- */
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  background: transparent !important;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  border-color: var(--border-color) !important;
+  background: rgba(255, 255, 255, 0.02) !important;
+  color: var(--text-primary) !important;
+}
+
+.markdown-body table th {
+  background: rgba(255, 255, 255, 0.05) !important;
+  font-weight: 600;
+}
+
+.markdown-body table tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.03) !important;
 }
