@@ -37,6 +37,7 @@ When a collaborator is removed:
 - Their local changes are no longer synchronized
 
 The dataset itself remains unchanged for the owner and other collaborators.
+- [More about deleting datasets](/datasets/delete#impact-on-collaborators)
 
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
