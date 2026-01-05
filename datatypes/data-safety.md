@@ -6,7 +6,7 @@ title: Data Safety
 
 <div class="callout note">
 <strong>Note</strong><br>
-DataTyper is built for content and mock data. DataTyper is designed to work with design and content data. Avoid storing any confidential information.
+DataTyper is built for content and mock data. Avoid storing any confidential information.
 </div>
 
 ## On this page
