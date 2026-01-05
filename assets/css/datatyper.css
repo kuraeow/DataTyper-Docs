@@ -150,3 +150,18 @@ body {
     margin-bottom: 12px;
   }
 }
+
+.docs-nav-divider {
+  margin: 20px 0;
+  height: 1px;
+  background: var(--border-color);
+}
+
+.docs-links-secondary a {
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.docs-links-secondary a:hover {
+  opacity: 1;
+}
