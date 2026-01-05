@@ -92,7 +92,7 @@ Important rules:
 - Commas are treated as regular characters
 - Empty lines are ignored
 
-Example:
+Example:<br>
 John Smith<br>
 Jane Doe<br>
 Alex Johnson

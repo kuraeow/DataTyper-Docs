@@ -26,7 +26,7 @@ Important rules:
 - Empty lines are ignored
 - Commas are treated as regular characters
 
-Example:
+Example:<br>
 John Smith<br>
 Jane Doe<br>
 Alex Johnson
