@@ -1,19 +1,35 @@
 <nav class="docs-nav">
-  <a href="/" class="docs-logo">
+  <!-- Logo -->
+  <a href="https://datatyper.space" class="docs-logo" target="_blank" rel="noopener" title="Go to DataTyper website">
     <img src="{{ '/assets/img/datatyper-logo.svg' | relative_url }}" alt="DataTyper" />
   </a>
 
+  <!-- Main navigation -->
   <div class="docs-links">
-    <a href="/" {% if page.url=="/" %}class="active" {% endif %}>
+    <a href="/" {% if page.url=="/" %} class="active" {% endif %}>
       Introduction
     </a>
 
-    <a href="/getting-started" {% if page.url contains "getting-started" %}class="active" {% endif %}>
+    <a href="/getting-started" {% if page.url contains "getting-started" %} class="active" {% endif %}>
       Getting Started
     </a>
 
-    <a href="/privacy" {% if page.url contains "privacy" %}class="active" {% endif %}>
+    <a href="/privacy" {% if page.url contains "privacy" %} class="active" {% endif %}>
       Privacy
+    </a>
+  </div>
+
+  <!-- Divider -->
+  <div class="docs-nav-divider"></div>
+
+  <!-- Secondary / meta links -->
+  <div class="docs-links docs-links-secondary">
+    <a href="https://github.com/kuraeow/DataTyper-Docs" target="_blank" rel="noopener">
+      GitHub
+    </a>
+
+    <a href="https://datatyper.space" target="_blank" rel="noopener">
+      Website
     </a>
   </div>
 </nav>
