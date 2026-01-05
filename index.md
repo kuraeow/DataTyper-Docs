@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DataTyper Documentation
+title: Home
 ---
 
 # DataTyper Documentation
