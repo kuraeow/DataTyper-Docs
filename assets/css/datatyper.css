@@ -244,22 +244,36 @@ body {
 
 
 /* --- Table styling for dark docs --- */
-.markdown-body table {
+.page-content .markdown-body table {
   width: 100%;
-  border-collapse: collapse;
-  background: transparent !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  background: var(--bg-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 12px !important;
+  overflow: hidden;
   margin: 14px 0 18px !important;
 }
-.markdown-body table th,
-.markdown-body table td {
-  border: 1px solid var(--border-color) !important;
-  background: rgba(255, 255, 255, 0.02) !important;
+
+.page-content .markdown-body table th,
+.page-content .markdown-body table td {
+  border: 0 !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding: 10px 12px !important;
   color: var(--text-primary) !important;
+  background: transparent !important;
 }
-.markdown-body table th {
-  background: rgba(255, 255, 255, 0.05) !important;
+
+.page-content .markdown-body table tr:last-child td {
+  border-bottom: 0 !important;
+}
+
+.page-content .markdown-body table th {
+  background: rgba(255, 255, 255, 0.04) !important;
   font-weight: 600 !important;
+  text-align: left !important;
 }
-.markdown-body table tr:nth-child(even) td {
-  background: rgba(255, 255, 255, 0.03) !important;
+
+.page-content .markdown-body table tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.02) !important;
 }
