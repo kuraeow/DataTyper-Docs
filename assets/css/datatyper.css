@@ -59,7 +59,7 @@ body {
 .docs-links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 .docs-nav a {
@@ -155,12 +155,12 @@ body {
 
 .docs-nav-divider {
   margin: 20px 0;
-  height: 1px;
+  /* height: 1px; */
   background: var(--border-color);
 }
 
 .docs-links-secondary a {
-  font-size: 13px;
+  font-size: 14px;
   opacity: 0.6;
 }
 
@@ -185,13 +185,14 @@ body {
 .docs-sub-links {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   padding-left: 10px;
-  border-left: 1px solid var(--border-color);
+  border-left: 2px solid var(--border-color);
+  opacity: 0.75;
 }
 
 .docs-sub-links a {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 /* Sidebar should stay usable with long navigation */
@@ -234,7 +235,7 @@ body {
   gap: 12px;
   margin-top: 28px;
   padding-top: 18px;
-  border-top: 1px solid var(--border-color);
+  border-top: 3px solid var(--border-color);
 }
 
 .docs-page-nav a {
@@ -252,10 +253,10 @@ body {
 /* --- Softer separators on dark theme --- */
 .markdown-body hr {
   border: 0 !important;
-  height: 1px !important;
-  background: linear-gradient(90deg, transparent, var(--border-color), transparent) !important;
-  opacity: 0.75 !important;
+  height: 2px !important;
+  background: var(--border-color) !important;
   margin: 26px 0 !important;
+  opacity: 0.75;
 }
 
 
