@@ -46,7 +46,7 @@ The authorization token issued by Figma is stored locally inside Figma clientSto
 
 ## Information DataTyper stores
 
-To explain clearly and transparently, DataTyper stores the following information on its servers:
+To explain clearly and transparently, DataTyper stores the following information on it's servers:
 
 - Figma user ID
 - Email address

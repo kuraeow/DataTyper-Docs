@@ -33,7 +33,7 @@ DataTyper requires confirmation to prevent accidental removal.
 
 <div class="callout warning">
 <strong>Warning</strong><br>
-Deleting a dataset permanently removes it and all associated data. Once deleted, its datatypes and values cannot be restored.
+Deleting a dataset permanently removes it and all associated data. Once deleted, it's datatypes and values cannot be restored.
 </div>
 
 ---
@@ -49,7 +49,7 @@ Make sure no one relies on the dataset before deleting it.
 
 <div class="callout tip">
 <strong>Tip</strong><br>
-If a collaborator removes a shared dataset, it is only unlinked from their workspace — the original dataset and its data remain intact for the owner and other collaborators.
+If a collaborator removes a shared dataset, it's only unlinked from their workspace — the original dataset and it's data remain intact for the owner and other collaborators.
 </div>
 
 ---

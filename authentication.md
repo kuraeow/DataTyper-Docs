@@ -27,7 +27,7 @@ During this process:
 - Figma issues an authorization token
 - DataTyper uses this token to identify you and access the plugin API
 
-DataTyper does **not** implement its own authentication system.
+DataTyper does **not** implement it's own authentication system.
 
 ---
 
@@ -63,7 +63,7 @@ If you share a computer, sign out from Figma to revoke local access.
 
 ## What DataTyper stores
 
-To function correctly, DataTyper stores a minimal set of user information on its servers:
+To function correctly, DataTyper stores a minimal set of user information on it's servers:
 
 - Figma user ID ✔️
 - Email address ✔️

@@ -18,7 +18,7 @@ DataTyper is designed to work with design and content data.
 - [User responsibility](#user-responsibility)
 
 
-It is not intended to store sensitive or confidential information.
+It's not intended to store sensitive or confidential information.
 
 ---
 
