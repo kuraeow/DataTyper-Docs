@@ -4,20 +4,12 @@ title: Delete a Dataset
 
 # Delete a Dataset
 
-<div class="callout warning">
-<strong>Warning</strong><br>
-Deleting a dataset is permanent. Once deleted, its datatypes and values cannot be restored.
-</div>
-
-Deleting a dataset permanently removes it and all associated data.
-
 ## On this page
 
 - [Permanent deletion](#permanent-deletion)
 - [How to delete a dataset](#how-to-delete-a-dataset)
 - [Impact on collaborators](#impact-on-collaborators)
 - [Recommended precautions](#recommended-precautions)
-
 
 ---
 
@@ -29,8 +21,6 @@ When you delete a dataset:
 - All values are deleted
 - All collaboration links are removed
 
-**This action is permanent and cannot be undone.**
-
 ---
 
 ## How to delete a dataset
@@ -40,6 +30,11 @@ When you delete a dataset:
 3. Confirm the deletion
 
 DataTyper requires confirmation to prevent accidental removal.
+
+<div class="callout warning">
+<strong>Warning</strong><br>
+Deleting a dataset permanently removes it and all associated data. Once deleted, its datatypes and values cannot be restored.
+</div>
 
 ---
 
@@ -51,6 +46,11 @@ If the dataset is shared:
 - Access is immediately revoked
 
 Make sure no one relies on the dataset before deleting it.
+
+<div class="callout tip">
+<strong>Tip</strong><br>
+If a collaborator removes a shared dataset, it is only unlinked from their workspace — the original dataset and its data remain intact for the owner and other collaborators.
+</div>
 
 ---
 
