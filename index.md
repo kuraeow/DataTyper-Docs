@@ -1,5 +1,4 @@
 ---
-layout: default
 title: DataTyper Documentation | Introduction
 ---
 
