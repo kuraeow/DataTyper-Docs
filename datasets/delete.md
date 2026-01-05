@@ -61,7 +61,6 @@ Before deleting a dataset, consider:
 - Confirming that the dataset is no longer needed
 - Informing collaborators, if applicable
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/datasets/create">← Create</a>

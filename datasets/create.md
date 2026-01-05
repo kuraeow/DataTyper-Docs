@@ -46,7 +46,6 @@ If you import a CSV file while no datasets exist, DataTyper will automatically c
 
 This means you can start working with DataTyper directly from a CSV file if you prefer.
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/datasets/overview">← Overview</a>

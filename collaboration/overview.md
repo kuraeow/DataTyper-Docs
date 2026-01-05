@@ -39,7 +39,6 @@ Every dataset has an owner — the user who originally created it.
 
 Collaborators work with the same data, but do not become owners of the dataset.
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/datasets/import-export">← Import / Export CSV</a>

@@ -101,7 +101,6 @@ Once access is revoked:
 
 For details about data handling and user responsibilities, see the **Privacy Policy**.
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/">← Getting Started</a>

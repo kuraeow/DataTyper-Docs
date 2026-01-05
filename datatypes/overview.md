@@ -30,7 +30,6 @@ Datatypes always belong to a dataset.
 
 Datatypes help you organize data in a predictable and reusable way.
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/collaboration/leaving-a-shared-dataset">← Leaving a Shared Dataset</a>

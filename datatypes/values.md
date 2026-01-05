@@ -46,7 +46,6 @@ When filling designs:
 
 Understanding how values work is essential for predictable filling results.
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/datatypes/overview">← Overview</a>

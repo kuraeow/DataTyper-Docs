@@ -38,7 +38,6 @@ Currently, DataTyper fills:
 
 Other layer types are ignored during filling.
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/datatypes/data-safety">← Data Safety</a>

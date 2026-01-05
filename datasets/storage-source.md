@@ -81,7 +81,6 @@ Use Google Sheets if you:
 - prefer managing data in spreadsheets
 - need external visibility or automation
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/datasets/delete">← Delete</a>

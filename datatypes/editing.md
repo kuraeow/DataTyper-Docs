@@ -38,7 +38,6 @@ This action cannot be undone.
 
 Make sure the datatype is no longer needed before deleting it.
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/datatypes/values">← Values</a>

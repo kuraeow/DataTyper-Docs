@@ -122,7 +122,6 @@ Randomization is useful for:
 - Avoiding repetitive patterns
 - Creating variation in layouts
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/filling-data/overview">← Overview</a>

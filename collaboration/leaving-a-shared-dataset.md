@@ -37,7 +37,6 @@ The dataset remains available to the owner and other collaborators.
 
 Leaving a dataset does not delete it from the owner’s storage.
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/collaboration/managing-collaborators">← Managing Collaborators</a>

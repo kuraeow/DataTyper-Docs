@@ -132,7 +132,6 @@ Now that you understand the basics, you can explore more advanced features:
 
 Continue with the next section to learn more about datasets and how they work.
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <span></span>

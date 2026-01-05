@@ -54,7 +54,6 @@ Users are fully responsible for the data they store inside DataTyper.
 
 Only store data that is safe to use in design and content workflows.
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/datatypes/editing">← Editing and Deleting</a>

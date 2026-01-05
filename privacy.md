@@ -133,7 +133,6 @@ Any changes will be reflected in the documentation. Continued use of DataTyper i
 
 If you have questions about this Privacy Policy, please contact the DataTyper developer through the official project channels.
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/filling-data/fill-in-figma">← Fill in Figma</a>

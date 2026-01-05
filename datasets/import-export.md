@@ -48,8 +48,6 @@ This creates:
 - One datatype named `Names` with two values
 - One datatype named `Emails` with two values
 
-##
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/datasets/storage-source">← Storage Source</a>

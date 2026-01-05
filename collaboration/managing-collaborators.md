@@ -38,7 +38,6 @@ When a collaborator is removed:
 
 The dataset itself remains unchanged for the owner and other collaborators.
 
----
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/collaboration/sharing-datasets">← Sharing Datasets</a>
