@@ -6,10 +6,8 @@ title: Data Safety
 
 <div class="callout note">
 <strong>Note</strong><br>
-DataTyper is built for content and mock data. Avoid storing any confidential information.
+DataTyper is built for content and mock data. DataTyper is designed to work with design and content data. Avoid storing any confidential information.
 </div>
-
-DataTyper is designed to work with design and content data.
 
 ## On this page
 
@@ -17,18 +15,15 @@ DataTyper is designed to work with design and content data.
 - [What you should NOT store](#what-you-should-not-store)
 - [User responsibility](#user-responsibility)
 
-
-It's not intended to store sensitive or confidential information.
-
 ---
 
 ## What DataTyper stores
 
 DataTyper stores:
 
-- Datasets
-- Datatypes
-- Values entered by users
+- Datasets ✔️
+- Datatypes ✔️
+- Values entered by users ✔️
 
 These values are used to populate designs and manage content.
 
@@ -38,21 +33,20 @@ These values are used to populate designs and manage content.
 
 Do not use DataTyper to store:
 
-- Passwords
-- API keys
-- Access tokens
-- Secrets or credentials
-- Sensitive personal information
-
-DataTyper does not provide guarantees required for secure storage of such data.
+- Passwords ❌
+- API keys ❌
+- Access tokens ❌
+- Secrets or credentials ❌
+- Sensitive personal information ❌
 
 ---
 
 ## User responsibility
 
-Users are fully responsible for the data they store inside DataTyper.
-
-Only store data that is safe to use in design and content workflows.
+<div class="callout warning">
+<strong>DataTyper does not provide guarantees required for secure storage of such data</strong><br>
+Users are fully responsible for the data they store inside DataTyper. Only store data that is safe to use in design and content workflows.
+</div>
 
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
