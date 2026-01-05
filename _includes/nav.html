@@ -9,33 +9,47 @@
     {% assign current = page.url %}
 
     {% for item in site.data.navigation %}
-      {% if item.children %}
-        <div class="docs-section">
-          <div class="docs-section-title">{{ item.title }}</div>
+    {% if item.children %}
+    <div class="docs-section">
+      <div class="docs-section-title">{{ item.title }}</div>
 
-          <div class="docs-sub-links">
-            {% for child in item.children %}
-              {% assign is_active = false %}
-              {% if current == child.url or current == child.url | append:'/' or current contains child.url %}
-                {% assign is_active = true %}
-              {% endif %}
-
-              <a href="{{ child.url }}" {% if is_active %}class="active"{% endif %}>
-                {{ child.title }}
-              </a>
-            {% endfor %}
-          </div>
-        </div>
-      {% else %}
+      <div class="docs-sub-links">
+        {% for child in item.children %}
         {% assign is_active = false %}
-        {% if current == item.url or current == item.url | append:'/' or current contains item.url %}
-          {% assign is_active = true %}
+        {% if child.url == '/' %}
+        {% if current == '/' or current == '' %}
+        {% assign is_active = true %}
+        {% endif %}
+        {% else %}
+        {% assign child_prefix = child.url | append:'/' %}
+        {% if current == child.url or current == child_prefix or current contains child_prefix %}
+        {% assign is_active = true %}
+        {% endif %}
         {% endif %}
 
-        <a href="{{ item.url }}" {% if is_active %}class="active"{% endif %}>
-          {{ item.title }}
+        <a href="{{ child.url }}" {% if is_active %}class="active" {% endif %}>
+          {{ child.title }}
         </a>
-      {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% else %}
+    {% assign is_active = false %}
+    {% if item.url == '/' %}
+    {% if current == '/' or current == '' %}
+    {% assign is_active = true %}
+    {% endif %}
+    {% else %}
+    {% assign item_prefix = item.url | append:'/' %}
+    {% if current == item.url or current == item_prefix or current contains item_prefix %}
+    {% assign is_active = true %}
+    {% endif %}
+    {% endif %}
+
+    <a href="{{ item.url }}" {% if is_active %}class="active" {% endif %}>
+      {{ item.title }}
+    </a>
+    {% endif %}
     {% endfor %}
   </div>
 
