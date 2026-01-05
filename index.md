@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Home
+title: DataTyper Documentation | Introduction
 ---
 
-# DataTyper Documentation
+# Introduction
 
 Welcome to **DataTyper** — a Figma plugin for filling designs with real data.
 

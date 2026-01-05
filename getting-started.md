@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: DataTyper Documentation | Getting Started
 ---
 
 # Getting Started

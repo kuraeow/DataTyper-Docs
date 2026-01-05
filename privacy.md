@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Privacy
+title: DataTyper Documentation | Privacy Policy
 ---
 
 # Privacy Policy
