@@ -93,9 +93,9 @@ Important rules:
 - Empty lines are ignored
 
 Example:
-- John Smith
-- Jane Doe
-- Alex Johnson
+John Smith<br>
+Jane Doe<br>
+Alex Johnson
 
 This creates **three separate values**, not one combined value.
 
