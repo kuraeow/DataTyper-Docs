@@ -99,6 +99,8 @@ Example:
 
 This creates **three separate values**, not one combined value.
 
+- [More about Values →](/datatypes/values)
+
 ---
 
 ## Fill your design
