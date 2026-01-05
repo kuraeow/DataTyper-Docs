@@ -1,12 +1,13 @@
 title: DataTyper Docs
 description: Official documentation for the DataTyper Figma plugin
 
+# ВАЖНО: Just the Docs подключается как remote theme
 remote_theme: just-the-docs/just-the-docs
 
 plugins:
   - jekyll-remote-theme
 
-# Dark theme
+# Dark mode
 color_scheme: dark
 enable_dark_mode: true
 
