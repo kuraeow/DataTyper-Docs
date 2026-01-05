@@ -68,9 +68,9 @@ Inside a dataset, data is organized into **Datatypes**.
 A **Datatype** represents one category of data, for example:
 - Names
 - Emails
+- Phone numbers
 - Titles
-- Product names
-- Image URLs
+- Dates
 
 To add a datatype:
 
