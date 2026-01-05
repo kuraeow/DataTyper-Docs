@@ -124,3 +124,21 @@ body {
     top: 0;
   }
 }
+
+/* Logo */
+.docs-logo {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.docs-logo img {
+  width: 140px;
+  height: auto;
+}
+
+/* Nav links wrapper */
+.docs-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
