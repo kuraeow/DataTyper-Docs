@@ -39,7 +39,7 @@ body {
   width: 260px;
   flex: 0 0 260px;
   position: sticky;
-  top: 24px;
+  top: 48px;
   height: fit-content;
   padding-top: 12px;
 }
