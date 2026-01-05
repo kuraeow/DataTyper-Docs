@@ -34,9 +34,10 @@ Deleting a datatype:
 - Removes the datatype from the dataset
 - Deletes all values inside it
 
-This action cannot be undone.
-
-Make sure the datatype is no longer needed before deleting it.
+<div class="callout warning">
+<strong>Warning</strong><br>
+This action cannot be undone. Make sure the datatype is no longer needed before deleting it.
+</div>
 
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
