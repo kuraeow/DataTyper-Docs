@@ -46,13 +46,6 @@ All authentication is delegated to Figma.
 
 ## Where the authorization token is stored
 
-<div class="callout tip">
-<strong>Tip</strong><br>
-If you share a computer, sign out from Figma to revoke local access.
-</div>
-
-
-
 The authorization token issued by Figma is stored:
 
 - **Locally**
@@ -60,6 +53,11 @@ The authorization token issued by Figma is stored:
 - On the **user’s own computer**
 
 The token is not stored in plain text databases and is not shared with other users.
+
+<div class="callout tip">
+<strong>Tip</strong><br>
+If you share a computer, sign out from Figma to revoke local access.
+</div>
 
 ---
 
@@ -99,7 +97,7 @@ Once access is revoked:
 - Tokens are stored locally in Figma clientStorage
 - Only minimal user profile data is stored server-side
 
-For details about data handling and user responsibilities, see the **Privacy Policy**.
+For details about data handling and user responsibilities, see the [Privacy Policy](/privacy).
 
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
