@@ -7,14 +7,6 @@ permalink: /
 
 This guide will help you get from opening DataTyper for the first time to filling your Figma designs with real data.
 
-## On this page
-
-- [Sign in with Figma](#sign-in-with-figma)
-- [Create your first Dataset](#create-your-first-dataset)
-- [Add a Datatype](#add-a-datatype)
-- [Fill your design](#fill-your-design)
-
-
 ---
 
 ## What is DataTyper?
@@ -48,6 +40,8 @@ DataTyper uses **Figma OAuth** for authentication.
 
 Once you complete the sign-in flow, DataTyper is ready to use.
 
+- [More about Authentication](#sign-in-with-figma)
+
 ---
 
 ## Create your first Dataset
@@ -62,6 +56,8 @@ To create your first dataset:
 3. Enter a name for your dataset
 
 Your dataset becomes the active dataset immediately.
+
+- [More about Datasets](#create-your-first-dataset)
 
 ---
 
@@ -83,6 +79,8 @@ To add a datatype:
 3. Enter values — **one value per line**
 4. Save the datatype
 
+- [More about Datatypes](#add-a-datatype)
+
 ---
 
 ## What is a Value?
@@ -95,9 +93,9 @@ Important rules:
 - Empty lines are ignored
 
 Example:
-John Smith
-Jane Doe
-Alex Johnson
+- John Smith
+- Jane Doe
+- Alex Johnson
 
 This creates **three separate values**, not one combined value.
 
@@ -116,6 +114,8 @@ Once you have datatypes with values, you can start filling your designs.
 DataTyper applies values to the selected layers in order.
 
 If there are more layers than values, values are reused cyclically.
+
+- [More about Filling](#fill-your-design)
 
 ---
 
