@@ -35,10 +35,10 @@ DataTyper does **not** implement its own authentication system.
 
 DataTyper **never stores**:
 
-- Figma passwords
-- OAuth secrets
-- API keys
-- Any other sensitive authentication credentials
+- Figma passwords ❌
+- OAuth secrets ❌
+- API keys ❌
+- Any other sensitive authentication credentials ❌
 
 All authentication is delegated to Figma.
 
@@ -65,10 +65,10 @@ If you share a computer, sign out from Figma to revoke local access.
 
 To function correctly, DataTyper stores a minimal set of user information on its servers:
 
-- Figma user ID
-- Email address
-- Display name
-- Avatar image
+- Figma user ID ✔️
+- Email address ✔️
+- Display name ✔️
+- Avatar image ✔️
 
 This information is used only to:
 - identify the user
