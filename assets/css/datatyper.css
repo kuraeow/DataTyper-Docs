@@ -9,6 +9,8 @@
   --text-muted: rgba(255, 255, 255, 0.4);
 
   --accent-gold: #C7A051;
+  --accent-blue: #5483A6;
+  --accent-red: #C36959;
   --border-color: rgba(255, 255, 255, 0.08);
 }
 
@@ -215,7 +217,7 @@ body {
 }
 
 .callout.tip strong {
-  color: var(--accent-gold);
+  color: var(--accent-blue);
 }
 
 .callout.note strong {
@@ -223,7 +225,7 @@ body {
 }
 
 .callout.warning strong {
-  color: var(--accent-gold);
+  color: var(--accent-red);
 }
 
 .docs-page-nav {

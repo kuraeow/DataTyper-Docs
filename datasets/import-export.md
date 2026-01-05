@@ -48,6 +48,11 @@ This creates:
 - One datatype named `Names` with two values
 - One datatype named `Emails` with two values
 
+<div class="callout tip">
+<strong>Tip</strong><br>
+When exporting CSV from Google Sheets or Excel, you can enter multiple values in one cell using line breaks. Each line will be imported as a separate value in DataTyper.
+</div>
+
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
   <a href="/datasets/storage-source">← Storage Source</a>
