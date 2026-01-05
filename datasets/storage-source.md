@@ -24,8 +24,8 @@ You can change the storage source at any time.
 Features:
 - Cloud-based storage
 - Real-time collaboration
-- Read and write access
-- Automatic synchronization between users
+- Read and write access for all collaborators
+- Automatic synchronization between collaborators
 
 This option works out of the box and requires no additional configuration.
 
