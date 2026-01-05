@@ -1,0 +1,19 @@
+<nav class="docs-nav">
+  <a href="/" class="docs-logo">
+    <img src="{{ '/assets/img/datatyper-logo.svg' | relative_url }}" alt="DataTyper" />
+  </a>
+
+  <div class="docs-links">
+    <a href="/" {% if page.url=="/" %}class="active" {% endif %}>
+      Introduction
+    </a>
+
+    <a href="/getting-started" {% if page.url contains "getting-started" %}class="active" {% endif %}>
+      Getting Started
+    </a>
+
+    <a href="/privacy" {% if page.url contains "privacy" %}class="active" {% endif %}>
+      Privacy
+    </a>
+  </div>
+</nav>
