@@ -60,14 +60,10 @@ In this mode:
 
 ---
 
-### Two-way synchronization
+### Google Sheets datasets work in read-only mode
 
-After authorizing with Google, DataTyper enables **two-way synchronization**.
-
-With two-way sync:
-- Changes made in DataTyper update the Google Sheet
-- Changes made in the Google Sheet update DataTyper
-- Both systems stay in sync automatically
+DataTyper reads data from your Google Sheet using a public CSV export link.
+Changes made in Google Sheets can be reflected in DataTyper
 
 ---
 

@@ -29,7 +29,7 @@ When you delete a dataset:
 2. Select **Delete dataset**
 3. Confirm the deletion
 
-DataTyper requires confirmation to prevent accidental removal.
+DataTyper requires confirmation to prevent accidental removal. Only the dataset owner can permanently delete a dataset.
 
 <div class="callout warning">
 <strong>Warning</strong><br>

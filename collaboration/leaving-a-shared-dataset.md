@@ -19,9 +19,7 @@ If you are connected to a dataset shared by another user, you can leave it at an
 To disconnect from a shared dataset:
 
 1. Select the shared dataset
-2. Delete the dataset from your dataset list
-
-This action only affects your local access.
+2. Remove the dataset from your dataset list
 
 ---
 

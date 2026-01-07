@@ -22,7 +22,7 @@ All collaborators have full access to the dataset:
 - They can import and export data
 - They can fill designs using the dataset
 
-There are no role-based permissions.
+Some actions (e.g. deleting a dataset, changing the storage source) are owner-only.
 
 ---
 
@@ -32,7 +32,7 @@ As the dataset owner, you can remove collaborators at any time.
 
 When a collaborator is removed:
 
-- They immediately lose access to the dataset
+- They lose access to the dataset
 - The dataset disappears from their list
 - Their local changes are no longer synchronized
 

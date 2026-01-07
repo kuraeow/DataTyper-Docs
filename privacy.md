@@ -68,6 +68,8 @@ DataTyper stores user-generated data, including:
 - Datasets
 - Datatypes
 - Values entered by users
+- Google Sheets URLs provided by users
+- Cached snapshots of data imported from Google Sheets (used to improve performance)
 
 This data is stored as provided by the user and is used exclusively for design and content workflows.
 
@@ -103,7 +105,7 @@ Users are responsible for ensuring that their data complies with applicable laws
 
 ## Data sharing
 
-DataTyper does not sell, rent, or share user data with third parties.
+DataTyper does not sell, rent, or share user data with third parties. When you use Google Sheets as a storage source, DataTyper requests your sheet data from Google to provide the feature (read-only import)
 
 Data may be shared only in the following cases:
 
