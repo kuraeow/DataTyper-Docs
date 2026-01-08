@@ -23,7 +23,7 @@ All collaborators have full access to the dataset:
 - They can fill designs using the dataset
 
 <div class="callout note">
-<strong>Tip</strong><br>
+<strong>Note</strong><br>
 Some actions (e.g. deleting a dataset, changing the storage source) are owner-only.
 </div>
 
