@@ -21,12 +21,69 @@
 </head>
 
 <body>
+  <!-- Mobile Header -->
+  <header class="mobile-header">
+    <a href="https://docs.datatyper.space" class="docs-logo" rel="noopener" title="Go to DataTyper documentation">
+      <img src="{{ '/assets/img/datatyper-logo.svg' | relative_url }}" alt="DataTyper" />
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+      <span class="menu-icon"></span>
+    </button>
+  </header>
+
+  <!-- Overlay for mobile drawer -->
+  <div class="drawer-overlay"></div>
+
   <main class="page-content">
     {% include nav.html %}
     <article class="markdown-body">
       {{ content }}
     </article>
   </main>
+
+  <script>
+    (function() {
+      const toggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('.docs-nav');
+      const overlay = document.querySelector('.drawer-overlay');
+      
+      function openMenu() {
+        nav.classList.add('open');
+        overlay.classList.add('open');
+        toggle.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+      }
+      
+      function closeMenu() {
+        nav.classList.remove('open');
+        overlay.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+      
+      toggle.addEventListener('click', function() {
+        if (nav.classList.contains('open')) {
+          closeMenu();
+        } else {
+          openMenu();
+        }
+      });
+      
+      overlay.addEventListener('click', closeMenu);
+      
+      // Close on navigation link click
+      nav.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', closeMenu);
+      });
+      
+      // Close on Escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && nav.classList.contains('open')) {
+          closeMenu();
+        }
+      });
+    })();
+  </script>
 </body>
 
 </html>

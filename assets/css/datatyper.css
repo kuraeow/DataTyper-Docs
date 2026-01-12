@@ -135,22 +135,150 @@ body {
   border-color: var(--border-color) !important;
 }
 
+/* Mobile Header (hidden on desktop) */
+.mobile-header {
+  display: none;
+}
+
+/* Drawer overlay (hidden on desktop) */
+.drawer-overlay {
+  display: none;
+}
+
 /* Mobile */
 @media (max-width: 900px) {
+
+  /* Mobile header: fixed top bar with logo + hamburger */
+  .mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    padding: 0 16px;
+    background: var(--bg-primary);
+    border-bottom: 1px solid var(--border-color);
+    z-index: 1000;
+  }
+
+  .mobile-header .docs-logo {
+    margin: 0;
+  }
+
+  .mobile-header .docs-logo img {
+    height: 18px;
+  }
+
+  /* Hamburger button */
+  .menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .menu-icon {
+    position: relative;
+    width: 20px;
+    height: 2px;
+    background: var(--text-primary);
+    border-radius: 2px;
+    transition: background 0.15s ease;
+  }
+
+  .menu-icon::before,
+  .menu-icon::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 2px;
+    background: var(--text-primary);
+    border-radius: 2px;
+    transition: transform 0.25s ease, top 0.25s ease;
+  }
+
+  .menu-icon::before {
+    top: -6px;
+  }
+
+  .menu-icon::after {
+    top: 6px;
+  }
+
+  /* Hamburger to X animation */
+  .menu-toggle[aria-expanded="true"] .menu-icon {
+    background: transparent;
+  }
+
+  .menu-toggle[aria-expanded="true"] .menu-icon::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  .menu-toggle[aria-expanded="true"] .menu-icon::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  /* Overlay backdrop */
+  .drawer-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 999;
+  }
+
+  .drawer-overlay.open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Page content adjustments */
   .page-content {
     flex-direction: column;
-    padding: 24px 16px;
+    padding: 80px 16px 24px;
+    /* top padding for fixed header */
     gap: 20px;
   }
 
+  /* Sidebar as left drawer */
   .docs-nav {
-    position: relative;
-    width: auto;
-    flex: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    max-height: 100vh;
+    padding: 24px 20px;
+    background: var(--bg-primary);
+    border-right: 1px solid var(--border-color);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1001;
+    overflow-y: auto;
   }
 
-  .docs-logo {
-    margin-bottom: 12px;
+  .docs-nav.open {
+    transform: translateX(0);
+  }
+
+  /* Hide logo in sidebar (already in header) */
+  .docs-nav>.docs-logo {
+    display: none;
   }
 }
 
