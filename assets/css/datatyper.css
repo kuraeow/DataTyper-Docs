@@ -270,6 +270,27 @@ body {
     transition: transform 0.3s ease;
     z-index: 1001;
     overflow-y: auto;
+
+    /* Custom scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-color) transparent;
+  }
+
+  .docs-nav::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .docs-nav::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .docs-nav::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+  }
+
+  .docs-nav::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.15);
   }
 
   .docs-nav.open {
