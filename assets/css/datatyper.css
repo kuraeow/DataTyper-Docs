@@ -345,6 +345,11 @@ body {
   font-size: 14px;
 }
 
+.docs-sub-links a.active {
+  color: var(--text-primary);
+  opacity: 1;
+}
+
 /* Sidebar should stay usable with long navigation (desktop only) */
 @media (min-width: 901px) {
   .docs-nav {
