@@ -338,16 +338,19 @@ body {
   gap: 12px;
   padding-left: 10px;
   border-left: 2px solid var(--border-color);
-  opacity: 0.75;
 }
 
 .docs-sub-links a {
   font-size: 14px;
+  color: var(--text-muted);
+}
+
+.docs-sub-links a:hover {
+  color: var(--text-secondary);
 }
 
 .docs-sub-links a.active {
   color: var(--text-primary);
-  opacity: 1;
 }
 
 /* Sidebar should stay usable with long navigation (desktop only) */
