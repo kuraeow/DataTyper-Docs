@@ -198,7 +198,8 @@ body {
 
 /* Sidebar should stay usable with long navigation */
 .docs-nav {
-  overflow: auto;
+  overflow-y: auto;
+  max-height: calc(100vh - 96px); /* viewport minus top + bottom padding */
   padding-right: 6px;
 }
 
