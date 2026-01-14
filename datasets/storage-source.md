@@ -65,6 +65,23 @@ In this mode:
 DataTyper reads data from your Google Sheet using a public CSV export link.
 Changes made in Google Sheets can be reflected in DataTyper
 
+### Required Google Sheets structure
+
+For the connection to work properly, your Google Sheet must follow a specific structure with exactly two columns:
+
+| datatype_name | datatype_value |
+|---------------|----------------|
+| Names         | John Smith     |
+| Names         | Jane Doe       |
+| Emails        | john@example.com |
+| Emails        | jane@example.com |
+
+- **datatype_name** — the name of the datatype
+- **datatype_value** — a single value for that datatype
+- Each row represents one value
+
+This follows the same format as the CSV import functionality.
+
 ---
 
 ## Choosing the right storage source
