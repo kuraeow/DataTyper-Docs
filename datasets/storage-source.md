@@ -60,11 +60,6 @@ In this mode:
 
 ---
 
-### Google Sheets datasets work in read-only mode
-
-DataTyper reads data from your Google Sheet using a public CSV export link.
-Changes made in Google Sheets can be reflected in DataTyper
-
 ### Required Google Sheets structure
 
 For the connection to work properly, your Google Sheet must follow a specific structure with exactly two columns:
