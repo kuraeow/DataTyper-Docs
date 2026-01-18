@@ -157,8 +157,8 @@ These Terms shall be governed by and construed in accordance with applicable law
 
 If you have questions about these Terms, please contact us at:
 
-Email: datatyperfigma@gmail.com
-X (Twitter): https://x.com/datatyperfigma
+- Email: datatyperfigma@gmail.com
+- X (Twitter): https://x.com/datatyperfigma
 
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
