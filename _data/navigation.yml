@@ -42,5 +42,7 @@
     url: /filling-data/fill-in-figma
 - title: Legal Info
   children:
+  - title: Terms
+    url: /terms
   - title: Privacy Policy
     url: /privacy

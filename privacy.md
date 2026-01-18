@@ -1,4 +1,4 @@
----
+﻿---
 title: Privacy Policy
 ---
 
@@ -40,7 +40,7 @@ DataTyper uses Figma OAuth for authentication.
 - DataTyper does not store authentication secrets
 - Authentication is handled entirely by Figma
 
-The authorization token issued by Figma is stored locally inside Figma clientStorage on the user’s computer.
+The authorization token issued by Figma is stored locally inside Figma clientStorage on the userвЂ™s computer.
 
 ---
 
@@ -119,7 +119,7 @@ Data may be shared only in the following cases:
 
 Users can delete datasets at any time.
 
-Deleting a dataset permanently removes the associated user-generated data from DataTyper’s storage.
+Deleting a dataset permanently removes the associated user-generated data from DataTyperвЂ™s storage.
 
 ---
 
@@ -137,6 +137,9 @@ If you have questions about this Privacy Policy, please contact the DataTyper de
 
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
-  <a href="/filling-data/fill-in-figma">← Fill in Figma</a>
+  <a href="/terms">← Terms</a>
   <span></span>
 </div>
+
+
+

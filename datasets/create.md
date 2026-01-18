@@ -48,6 +48,6 @@ This means you can start working with DataTyper directly from a CSV file if you 
 
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
-  <a href="/datasets/overview">← Overview</a>
+  <a href="/datasets/overview">← Datasets Overview</a>
   <a href="/datasets/delete">Delete →</a>
 </div>

@@ -44,6 +44,6 @@ The shared dataset will appear in your dataset list.
 
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
-  <a href="/collaboration/overview">← Overview</a>
+  <a href="/collaboration/overview">← Collaboration Overview</a>
   <a href="/collaboration/managing-collaborators">Managing Collaborators →</a>
 </div>

@@ -47,6 +47,6 @@ Understanding how values work is essential for predictable filling results.
 
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
-  <a href="/datatypes/overview">← Overview</a>
+  <a href="/datatypes/overview">← Datatypes Overview</a>
   <a href="/datatypes/editing">Editing and Deleting →</a>
 </div>

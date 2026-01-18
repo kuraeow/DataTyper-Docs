@@ -124,6 +124,7 @@ Randomization is useful for:
 
 <!-- DATATYPER_DOCS_NAV -->
 <div class="docs-page-nav">
-  <a href="/filling-data/overview">← Overview</a>
-  <a href="/privacy">Privacy Policy →</a>
+  <a href="/filling-data/overview">← Filling Data Overview</a>
+  <a href="/terms">Terms →</a>
 </div>
+
