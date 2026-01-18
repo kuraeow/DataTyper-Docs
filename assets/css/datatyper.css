@@ -312,6 +312,9 @@ body {
 .docs-links-secondary a {
   font-size: 14px;
   opacity: 0.6;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .docs-links-secondary a:hover {
