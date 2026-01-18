@@ -65,6 +65,7 @@ You confirm that:
 - the User Content does not violate any applicable laws or third-party rights
 
 We do not claim ownership over your User Content.
+We are not responsible for the loss, corruption or misuse of User Content.
 
 ---
 
