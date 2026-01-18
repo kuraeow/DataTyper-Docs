@@ -312,8 +312,9 @@ body {
 .docs-links-secondary a {
   font-size: 14px;
   opacity: 0.6;
-  display: inline-flex;
-  align-items: center;
+}
+
+.docs-links-secondary {
   gap: 8px;
 }
 
